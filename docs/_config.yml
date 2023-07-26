@@ -4,7 +4,7 @@
 url: "https://pranav158.github.io"
 baseurl: "/foxsmp"
 siteIcon: /media/android-chrome-192x192.png
-siteYear: 2020
+siteYear: 2023
 siteFooterlink: /about
 showinSearchEngines: true
 # googleAnalyticsID: (uncomment to use)
@@ -19,8 +19,8 @@ useBedrockForOnlineStatus: false
 
 # Discord information
 discordInvite: https://discord.gg/hd5pNVmZTu
-discordServerID: 299881420891881473
-discordChannelID: 450428756855750666
+discordServerID: 1067113121350684774
+discordChannelID: 1111721477977423902
 
 
 # # Navbar Links at the top of the page (uncomment "siteNav" to use)
