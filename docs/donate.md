@@ -1,4 +1,4 @@
 ---
 layout: redirect
-tourl: https://ko-fi.com/
+tourl: https://ko-fi.com/mysticfox_
 ---
