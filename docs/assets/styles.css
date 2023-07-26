@@ -1,0 +1,110 @@
+:root {
+    --lightcolor: #efefef;
+    --green-900: #22543d;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #272727;
+    background-image: linear-gradient(351deg, rgba(218, 218, 218,0.04) 0%, rgba(218, 218, 218,0.04) 46%,rgba(145, 145, 145,0.04) 46%, rgba(145, 145, 145,0.04) 75%,rgba(71, 71, 71,0.04) 75%, rgba(71, 71, 71,0.04) 100%),linear-gradient(57deg, rgba(218, 218, 218,0.04) 0%, rgba(218, 218, 218,0.04) 43%,rgba(145, 145, 145,0.04) 43%, rgba(145, 145, 145,0.04) 49%,rgba(71, 71, 71,0.04) 49%, rgba(71, 71, 71,0.04) 100%),linear-gradient(204deg, rgba(218, 218, 218,0.04) 0%, rgba(218, 218, 218,0.04) 63%,rgba(145, 145, 145,0.04) 63%, rgba(145, 145, 145,0.04) 86%,rgba(71, 71, 71,0.04) 86%, rgba(71, 71, 71,0.04) 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20));
+    font-family: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    transition: all 0.2s ease;
+}
+
+.layoutfooter, .layoutfooter a {
+    color: #888;
+}
+
+.cbsitehover {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+    .cbsitehover2 {
+        overflow: hidden;
+    }
+    .cbsitehover:hover {
+        transform: scale(1.15);
+    }
+
+.ccdiscordjoin {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+    .ccdiscordjoin:after {
+        content: '\25B8';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    button.ccdiscordjoinpre:hover span {
+    padding-right: 20px;
+    }
+    button.ccdiscordjoinpre:hover .ccdiscordjoin:after {
+        opacity: 1;
+        right: 0;
+    }
+
+.ccinfoframe {
+    width: 100%;
+    height: 80vh;
+    min-height: 600px;
+    max-height: 900px;
+}
+
+.ccmorecells {
+    height: 200px;
+}
+
+@media screen and (min-width: 1024px) {
+    .ccinfoframe {
+        width: 500px;
+        height: 80vh;
+        min-height:600px;
+        max-height: 900px;
+    }
+    .ccmorecells {
+        height: 400px;
+    }
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 8em;
+    margin-left: -4em;
+    text-align: center;
+    position: fixed;
+    z-index: 30;
+    left: 50%;
+    bottom: 30px;
+}
+    #snackbar.show {
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2s;
+        animation: fadein 0.5s, fadeout 0.5s 2s;
+    }
+    @-webkit-keyframes fadein {
+        from {bottom: 0; opacity: 0;} 
+        to {bottom: 30px; opacity: 1;}
+    }
+    @keyframes fadein {
+        from {bottom: 0; opacity: 0;}
+        to {bottom: 30px; opacity: 1;}
+    }
+    @-webkit-keyframes fadeout {
+        from {bottom: 30px; opacity: 1;} 
+        to {bottom: 0; opacity: 0;}
+    }
+    @keyframes fadeout {
+        from {bottom: 30px; opacity: 1;}
+        to {bottom: 0; opacity: 0;}
+    }
