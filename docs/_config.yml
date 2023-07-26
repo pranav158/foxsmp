@@ -11,7 +11,7 @@ showinSearchEngines: true
 
 
 # Set basic server info
-serverName: FOX SMP NETWORK
+serverName: FOX SMP
 serverDescription: A Minecraft server where we have lots of fun!
 serverIP: play.foxsmp.in
 useBedrockForOnlineStatus: false
