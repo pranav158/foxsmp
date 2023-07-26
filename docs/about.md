@@ -5,14 +5,7 @@ navname: About
 
 # {{ site.serverName }}
 
-Moonrise is a simple, flexible template website for Minecraft servers.
-
-[GitHub](https://github.com/coffeebank/moonrise)
-
-
-# Terms of Use
-
-Moonrise MC is free for use [under the MIT license](https://github.com/coffeebank/moonrise).
+Welcome to FOX SMP, the ultimate Minecraft adventure awaits! Join us now and forge your legacy in this vibrant world of creativity and friendship.
 
 
 # Privacy Policy
