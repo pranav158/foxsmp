@@ -1,7 +1,7 @@
 # Set this website's info
 # Change "coffeebank" to your GitHub username
 # Change "moonrise" to your repository name
-url: "https://foxsmp.in"
+url: "https://foxcraft.fun"
 baseurl: ""
 siteIcon: /media/android-chrome-192x192.png
 siteYear: 2023
@@ -13,7 +13,7 @@ showinSearchEngines: true
 # Set basic server info
 serverName: FOX SMP
 serverDescription: A Minecraft server where we have lots of fun!
-serverIP: play.foxsmp.in
+serverIP: mc.foxcraft.fun
 useBedrockForOnlineStatus: false
 
 
